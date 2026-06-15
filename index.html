@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AniLink 智物聯科技 — 台灣和牛的智慧夥伴</title>
+  <meta name="description" content="AniLink 以「模組化智慧頸圈 + 雲端 IoT 平台 + 油花預測 AI 引擎」整合方案，協助源興牛產業從規模化走向品牌化——以資料驅動，把每一頭牛從 A3 推向 A5。">
+  <meta name="theme-color" content="#FAF6EF">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Open Graph / 社群分享 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AniLink 智物聯科技 — 台灣和牛的智慧夥伴">
+  <meta property="og:description" content="智慧畜牧 IoT 解決方案於台灣和牛（源興牛）產業之應用。">
+  <meta property="og:image" content="images/og-cover.png">
+
+  <!-- 字體 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- 無 JavaScript 時的後備：確保進場動畫區塊內容仍可見 -->
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+</head>
+<body>
+
+  <!-- ===================== 頁首 ===================== -->
+  <header class="site-header">
+    <nav class="nav" aria-label="主導覽">
+      <a href="index.html" class="nav__logo" aria-label="AniLink 首頁">
+        <svg class="logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <circle cx="20" cy="22" r="11.5" stroke="currentColor" stroke-width="2.4"/>
+          <circle cx="20" cy="10.5" r="4" fill="#9E2B25"/>
+          <path d="M28.5 9a7.5 7.5 0 0 1 1.8 5.2" stroke="#9E2B25" stroke-width="2.2" stroke-linecap="round"/>
+          <path d="M11.5 9a7.5 7.5 0 0 0-1.8 5.2" stroke="#9E2B25" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+        </svg>
+        <span class="logo-word">Ani<b>Link</b></span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a class="nav__link" href="index.html">首頁</a></li>
+        <li><a class="nav__link" href="technology.html">技術架構</a></li>
+        <li><a class="nav__link" href="pricing.html">方案與定價</a></li>
+        <li><a class="nav__link" href="about.html">關於 AniLink</a></li>
+        <li><a class="nav__link" href="contact.html">聯絡我們</a></li>
+      </ul>
+
+      <div class="nav__right">
+        <a href="contact.html" class="btn btn--primary">預約場域示範</a>
+        <button class="nav__toggle" aria-label="開啟選單" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===================== Hero ===================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__copy reveal">
+            <span class="eyebrow">智慧畜牧 IoT 平台</span>
+            <h1 class="hero__title">讓每一頭和牛，<br>從 A3 推向 <em>A5</em>。</h1>
+            <p class="hero__lead">AniLink 以「模組化智慧頸圈 ＋ 雲端 IoT 平台 ＋ 油花預測 AI 引擎」整合方案，協助台灣源興牛產業把「事後檢驗」變成「事前優化」，從規模化走向品牌化與外銷化。</p>
+            <div class="hero__actions">
+              <a href="contact.html" class="btn btn--primary btn--lg">預約場域示範
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+              <a href="technology.html" class="btn btn--outline btn--lg">了解技術架構</a>
+            </div>
+            <div class="hero__stats">
+              <div class="hero__stat">
+                <span class="n"><span data-count="50" data-suffix="%">50%</span></span>
+                <span class="l">A4–A5 高等級目標比例</span>
+              </div>
+              <div class="hero__stat">
+                <span class="n">NT$<span data-count="15" data-suffix=" 萬">15 萬</span></span>
+                <span class="l">每頭牛價值提升上看</span>
+              </div>
+              <div class="hero__stat">
+                <span class="n"><span data-count="80" data-suffix="%+">80%+</span></span>
+                <span class="l">AI 油花預測準確度目標</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__media reveal" data-delay="2">
+            <!-- 🎨 nanobanana 提示詞 | images/hero-pasture.png | 3:2 橫式
+                 EN: Cinematic editorial photograph of a serene early-morning pasture in Hualien, Taiwan at golden dawn, soft mist hovering over lush green grass, a noble purebred Japanese-bloodline black wagyu cow (源興牛) grazing in the foreground wearing a subtle modern smart collar with a faint status light, distant Central Mountain Range silhouette, warm ivory light, shallow depth of field, premium agricultural brand aesthetic, no text, no logo.
+                 中文: 花蓮兆豐農場清晨金色薄霧、純血黑毛和牛（源興牛）在草地上、配戴現代智慧頸圈、中央山脈遠景、電影感淺景深、高端品牌調性。 -->
+            <figure class="art art--3x2">
+              <img class="art__img" src="images/hero-pasture.png" alt="晨霧中的花蓮和牛牧場，源興牛配戴智慧頸圈" loading="eager"
+                   onerror="this.closest('.art').classList.add('art--empty')">
+              <figcaption class="art__ph">
+                <span class="art__badge">AI 圖片占位</span>
+                <code class="art__file">images/hero-pasture.png</code>
+                <span class="art__hint">用 nanobanana 依上方提示詞生成後，置入此檔名即自動顯示</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 定位與背書（視差背景）===================== -->
+    <section class="section section--parallax" style="background-image:url('images/hualien-landscape.png');">
+      <div class="container">
+        <div class="reveal" style="text-align:center;">
+          <p class="pquote__text" style="font-size:clamp(22px,2.8vw,32px);max-width:840px;margin-inline:auto;">
+            「AniLink — <em>台灣和牛的智慧夥伴</em>。」
+          </p>
+          <p style="margin-top:28px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:rgba(237,228,214,.72);">合作與背書</p>
+          <p style="margin-top:14px;font-family:var(--font-serif);font-size:clamp(15px,2vw,19px);color:#F4EDE0;display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:center;">
+            <span>源興居生技</span><span style="opacity:.45">·</span>
+            <span>千頭代養計畫</span><span style="opacity:.45">·</span>
+            <span>屏東科技大學</span><span style="opacity:.45">·</span>
+            <span>東華大學</span><span style="opacity:.45">·</span>
+            <span>農業部畜產試驗所</span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 四大痛點 ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">產業挑戰</span>
+          <h2 class="section-head__title">源興牛產業的四大痛點</h2>
+          <p class="section-head__lead">和牛單頭價值極高、飼養週期長達 28–32 個月、容錯極低——任何環節的偏差，都要等到屠宰才以「油花不足」付出昂貴代價。這正是資料化管理投資報酬最高的場域。</p>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="pain reveal" data-delay="1">
+            <div class="pain__no">1</div>
+            <h3 class="pain__title">油花無法事前預測</h3>
+            <p class="pain__text">BMS 油花等級必須等到屠宰才知道，整個飼養期無法即時調整，是典型「事後才知道」的決策模式。</p>
+            <p class="pain__solve">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <span><b>AI 油花預測</b>於屠宰前 1–6 個月預估等級</span>
+            </p>
+          </article>
+
+          <article class="pain reveal" data-delay="2">
+            <div class="pain__no">2</div>
+            <h3 class="pain__title">多場域 SOP 難統一</h3>
+            <p class="pain__text">千頭代養計畫橫跨多家牧場，飼料、環境、經驗各異，品質落差將影響品牌一致性與外銷可能。</p>
+            <p class="pain__solve">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <span><b>多場域儀表板</b>跨場即時監控、異常自動通報</span>
+            </p>
+          </article>
+
+          <article class="pain reveal" data-delay="3">
+            <div class="pain__no">3</div>
+            <h3 class="pain__title">疾病晚發現損失大</h3>
+            <p class="pain__text">仰賴肉眼觀察，症狀明顯時多已中後期；單頭源興牛死亡即損失 NT$ 30–50 萬。</p>
+            <p class="pain__solve">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <span><b>健康預警</b>較人工觀察提前 24–72 小時通報</span>
+            </p>
+          </article>
+
+          <article class="pain reveal" data-delay="4">
+            <div class="pain__no">4</div>
+            <h3 class="pain__title">外銷可追溯缺乏</h3>
+            <p class="pain__text">日本、香港、新加坡高端市場要求嚴格血統與生命週期紀錄，現行耳標系統僅涵蓋基本資訊。</p>
+            <p class="pain__solve">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              <span><b>區塊鏈追溯</b>符合 JAS／SFA／EU 國際標準</span>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 解決方案：三層架構 + 儀表板 ===================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="split">
+          <div class="split__copy reveal">
+            <span class="eyebrow">整合解決方案</span>
+            <h2 class="section-head__title">從事後檢驗，<br>到事前優化。</h2>
+            <p class="lead" style="margin-top:20px;">以「模組化硬體 ＋ 雲原生平台 ＋ 開放 API」三層架構，提供從牧場端到屠宰端的全生命週期資料管理。</p>
+            <div class="feature-list">
+              <div class="feature-row">
+                <div class="feature-row__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9zM2 9h2M2 15h2M20 9h2M20 15h2M9 2v2M15 2v2M9 20v2M15 20v2"/></svg>
+                </div>
+                <div>
+                  <h3 class="feature-row__title">AniLink Bovine 智慧頸圈</h3>
+                  <p class="feature-row__text">IP68 防護、太陽能輔助續航 18–24 個月，六軸 IMU、瘤胃溫度、心率與環境感測，邊緣 AI 即時行為辨識。</p>
+                </div>
+              </div>
+              <div class="feature-row">
+                <div class="feature-row__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19a4.5 4.5 0 0 0 .5-9 6 6 0 0 0-11.6-1.6A4 4 0 0 0 6 19h11.5Z"/></svg>
+                </div>
+                <div>
+                  <h3 class="feature-row__title">AniLink Cloud 雲端平台</h3>
+                  <p class="feature-row__text">核心模組 ＋ 加值模組的模組化 SaaS，內建生命階段達標追蹤、健康預警、發情期偵測與多場域 SOP 儀表板。</p>
+                </div>
+              </div>
+              <div class="feature-row">
+                <div class="feature-row__icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-1 5 3 3 0 0 1-4 2 3 3 0 0 1-4-2 3 3 0 0 1-1-5 3 3 0 0 1 2-5 3 3 0 0 1 3-3Z"/><path d="M12 8v8M9 11h6"/></svg>
+                </div>
+                <div>
+                  <h3 class="feature-row__title">油花預測 AI 引擎</h3>
+                  <p class="feature-row__text">融合基因 GEBV、活體超音波、IoT 行為與場域記錄四大資料源，多模態預測 BMS 等級並給出改善建議。</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-32">
+              <a href="technology.html" class="tlink">深入了解技術架構
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- 儀表板 Mockup（純 CSS／SVG 繪製，無需生成圖片） -->
+          <div class="split__media reveal" data-delay="2">
+            <div class="dash">
+              <div class="dash__bar">
+                <span class="dash__dot"></span><span class="dash__dot"></span><span class="dash__dot"></span>
+                <span class="dash__title">AniLink Cloud — 兆豐農場・即時總覽</span>
+              </div>
+              <div class="dash__body">
+                <div class="dash__tiles">
+                  <div class="dash__tile"><div class="k">在養頭數</div><div class="v">218</div></div>
+                  <div class="dash__tile"><div class="k">A4–A5 預測佔比</div><div class="v">47<small> ↑</small></div></div>
+                  <div class="dash__tile"><div class="k">健康警示</div><div class="v">2<small> 件</small></div></div>
+                </div>
+                <div class="dash__chart">
+                  <div class="ct">群體日增重趨勢（kg／日）</div>
+                  <svg viewBox="0 0 320 90" preserveAspectRatio="none" aria-hidden="true">
+                    <defs>
+                      <linearGradient id="g1" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#9E2B25" stop-opacity=".18"/>
+                        <stop offset="1" stop-color="#9E2B25" stop-opacity="0"/>
+                      </linearGradient>
+                    </defs>
+                    <path d="M0 70 L40 64 L80 66 L120 52 L160 56 L200 40 L240 44 L280 30 L320 34 L320 90 L0 90 Z" fill="url(#g1)"/>
+                    <path d="M0 70 L40 64 L80 66 L120 52 L160 56 L200 40 L240 44 L280 30 L320 34" fill="none" stroke="#9E2B25" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="dash__rows">
+                  <div class="dash__row"><span class="id">#042 母・26 月齡</span><span class="signal signal--green"><span class="dot"></span>達標</span></div>
+                  <div class="dash__row"><span class="id">#118 公・19 月齡</span><span class="signal signal--amber"><span class="dot"></span>維生素 A 偏高</span></div>
+                  <div class="dash__row"><span class="id">#205 母・14 月齡</span><span class="signal signal--blue"><span class="dot"></span>進入肥育前期</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 量化價值 KPI ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <span class="eyebrow">可量化的價值</span>
+          <h2 class="section-head__title">本方案能為和牛業者達成什麼？</h2>
+          <p class="section-head__lead">以源興牛千頭代養計畫為基礎的保守估算，每頭牛可創造 NT$ 10–15 萬價值提升，千頭規模年化效益超過 NT$ 5,000 萬。</p>
+        </div>
+        <div class="stats">
+          <div class="stat reveal" data-delay="1">
+            <div class="stat__num"><span data-count="30">30</span><span class="unit">→</span><span data-count="50" data-suffix="%">50%</span></div>
+            <div class="stat__label">A4–A5 高等級比例</div>
+            <div class="stat__sub">年增售價 NT$ 3,000–5,000 萬</div>
+          </div>
+          <div class="stat reveal" data-delay="2">
+            <div class="stat__num"><span data-count="5">5</span><span class="unit">→</span><span data-count="2" data-suffix="%">2%</span></div>
+            <div class="stat__label">死亡率下降</div>
+            <div class="stat__sub">減少損失 NT$ 1,000–1,500 萬</div>
+          </div>
+          <div class="stat reveal" data-delay="3">
+            <div class="stat__num"><span data-count="8">8</span><span class="unit">–</span><span data-count="12" data-suffix="%">12%</span></div>
+            <div class="stat__label">飼料轉換率改善</div>
+            <div class="stat__sub">飼料成本年省 NT$ 500–800 萬</div>
+          </div>
+          <div class="stat reveal" data-delay="4">
+            <div class="stat__num"><span data-count="72" data-suffix="h">72h</span></div>
+            <div class="stat__label">疾病預警提前</div>
+            <div class="stat__sub">用藥與獸醫成本年省 NT$ 300–500 萬</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 三大產品線 ===================== -->
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">產品線</span>
+          <h2 class="section-head__title">硬體、平台、追溯，<br>一套完整生態系。</h2>
+        </div>
+        <div class="grid grid--3">
+          <!-- 產品一：智慧頸圈 -->
+          <article class="product reveal" data-delay="1">
+            <!-- 🎨 nanobanana 提示詞 | images/collar-product.png | 4:3
+                 EN: Clean product photography of a sleek modern rugged IoT livestock smart collar device for cattle, matte dark-grey weatherproof housing (IP68), small embedded solar panel strip, subtle single status LED, a sturdy adjustable strap, photographed on a soft ivory (#FAF6EF) studio background with gentle shadows, premium tech product render, centered, no text, no logo.
+                 中文: 現代感堅固的牛用 IoT 智慧頸圈、霧面深灰防水外殼、小型太陽能板、單一狀態指示燈、可調式頸帶、米白棚拍背景、頂級科技產品攝影。 -->
+            <div class="art art--4x3 product__media">
+              <img class="art__img" src="images/collar-product.png" alt="AniLink Bovine 智慧頸圈產品照" loading="lazy"
+                   onerror="this.closest('.art').classList.add('art--empty')">
+              <figcaption class="art__ph">
+                <span class="art__badge">AI 圖片占位</span>
+                <code class="art__file">images/collar-product.png</code>
+                <span class="art__hint">智慧頸圈產品照</span>
+              </figcaption>
+            </div>
+            <div class="product__body">
+              <span class="product__tag">硬體・一次性購置</span>
+              <h3 class="product__name">AniLink Bovine<span>智慧頸圈</span></h3>
+              <p class="product__desc">專為台灣和牛場域設計，耐高溫高濕與糞便腐蝕。</p>
+              <ul class="product__list">
+                <li>IP68 防護・約 180g 輕量化</li>
+                <li>太陽能輔助 ＋ 6,000mAh，續航 18–24 個月</li>
+                <li>六軸 IMU、瘤胃溫度、PPG 心率、環境感測</li>
+                <li>LoRa（場內無月費）＋ NB-IoT 備援</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- 產品二：雲端平台 -->
+          <article class="product reveal" data-delay="2">
+            <!-- 🎨 nanobanana 提示詞 | images/cloud-device.png | 4:3
+                 EN: A modern tablet and laptop on a light wooden desk in a bright farm office, screens softly showing a clean livestock data dashboard with charts and green/amber status indicators (blurred, not legible), warm natural daylight, ivory and crimson accent palette, editorial product lifestyle photography, shallow depth of field, no readable text, no logo.
+                 中文: 明亮牧場辦公室淺色木桌上的平板與筆電、螢幕模糊顯示乾淨的畜牧資料儀表板（圖表與紅綠燈號）、自然日光、米白與和牛紅點綴、生活風產品攝影。 -->
+            <div class="art art--4x3 product__media">
+              <img class="art__img" src="images/cloud-device.png" alt="AniLink Cloud 平台於平板與筆電上的畫面" loading="lazy"
+                   onerror="this.closest('.art').classList.add('art--empty')">
+              <figcaption class="art__ph">
+                <span class="art__badge">AI 圖片占位</span>
+                <code class="art__file">images/cloud-device.png</code>
+                <span class="art__hint">平板／筆電顯示平台畫面</span>
+              </figcaption>
+            </div>
+            <div class="product__body">
+              <span class="product__tag">SaaS・模組化訂閱</span>
+              <h3 class="product__name">AniLink Cloud<span>雲端 IoT 平台</span></h3>
+              <p class="product__desc">核心 ＋ 加值模組自由組合，按需付費。</p>
+              <ul class="product__list">
+                <li>生命階段達標追蹤（LifeStage）</li>
+                <li>健康預警 Pro 與發情期偵測</li>
+                <li>AI 油花預測與營養精準優化</li>
+                <li>多場域 SOP 統一儀表板（總部級）</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- 產品三：可追溯 -->
+          <article class="product reveal" data-delay="3">
+            <!-- 🎨 nanobanana 提示詞 | images/trace-export.png | 4:3
+                 EN: Elegant fine-dining presentation of premium seared A5 wagyu beef slices on a refined ceramic plate, dark moody restaurant background, soft directional light highlighting the marbling, a faint sense of provenance/quality certification, luxurious gourmet food photography, export-grade premium beef, no text, no logo.
+                 中文: 高級餐廳擺盤的頂級 A5 和牛炙燒切片、深色氛圍背景、柔光凸顯油花、外銷頂級品質感、精緻美食攝影。 -->
+            <div class="art art--4x3 product__media">
+              <img class="art__img" src="images/trace-export.png" alt="外銷等級和牛料理擺盤，象徵可追溯品質" loading="lazy"
+                   onerror="this.closest('.art').classList.add('art--empty')">
+              <figcaption class="art__ph">
+                <span class="art__badge">AI 圖片占位</span>
+                <code class="art__file">images/trace-export.png</code>
+                <span class="art__hint">外銷品質／餐桌料理</span>
+              </figcaption>
+            </div>
+            <div class="product__body">
+              <span class="product__tag">追溯・外銷選配</span>
+              <h3 class="product__name">AniLink Trace<span>區塊鏈可追溯</span></h3>
+              <p class="product__desc">進入日／港／星高端市場的入場券。</p>
+              <ul class="product__list">
+                <li>全生命週期區塊鏈紀錄</li>
+                <li>符合 JAS／SFA／EU 國際標準</li>
+                <li>第三方獨立驗證與品質證明</li>
+                <li>外銷牧場專屬選配，按需採用</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 為什麼是和牛 ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="split split--reverse">
+          <div class="split__media reveal">
+            <!-- 🎨 nanobanana 提示詞 | images/yuanxing-portrait.png | 4:3
+                 EN: A dignified close-up editorial portrait of a Taiwanese purebred black wagyu (源興牛, Tajima bloodline), glossy black coat, calm gentle eyes, soft natural side light, green pasture bokeh background, fine-art livestock photography, warm tones, shallow depth of field, no text, no logo.
+                 中文: 台灣純血黑毛和牛（源興牛・但馬血統）的莊重特寫肖像、油亮黑毛、溫和眼神、自然側光、草地散景、藝術級畜牧攝影。 -->
+            <figure class="art art--4x3">
+              <img class="art__img" src="images/yuanxing-portrait.png" alt="源興牛純血黑毛和牛肖像" loading="lazy"
+                   onerror="this.closest('.art').classList.add('art--empty')">
+              <figcaption class="art__ph">
+                <span class="art__badge">AI 圖片占位</span>
+                <code class="art__file">images/yuanxing-portrait.png</code>
+                <span class="art__hint">源興牛肖像</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="split__copy reveal" data-delay="2">
+            <span class="eyebrow">為什麼是和牛</span>
+            <h2 class="section-head__title">資料化投資報酬<br>最高的場域。</h2>
+            <p class="lead" style="margin-top:20px;">和牛的價值來自油花（肌內脂肪），而油花由基因（30–50%）與飼養管理（40–60%）共同決定。飼養期長達 28–32 個月、刻意放緩日增重、維生素 A 須「精準走鋼索」——這條漫長、緩慢、精準的工藝，正是連續監控與精準營養能創造最大報酬之處。</p>
+            <ul class="product__list" style="margin-top:24px;gap:13px;">
+              <li>單頭價值高：A5 源興牛市價可達 NT$ 50 萬以上</li>
+              <li>產業初創、無既有競爭者，政策高度支持</li>
+              <li>2024/11 通過農業部品種審定，啟動千頭代養計畫</li>
+              <li>外銷市場明確：日本、香港、新加坡需求實在</li>
+            </ul>
+            <div class="mt-32">
+              <a href="about.html" class="tlink">認識源興牛與市場機會
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== 引言（視差背景）===================== -->
+    <section class="section section--parallax" style="background-image:url('images/marbling-a5.png');">
+      <div class="container">
+        <div class="pquote reveal">
+          <p class="pquote__text">「讓源興牛從規模化走向品牌化——<br>以資料驅動，把每一頭牛<em>從 A3 推向 A5</em>。」</p>
+          <p class="pquote__cite">— AniLink 價值主張總綱</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CTA ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2 class="cta-band__title">把每一頭牛，都帶上正確的軌道。</h2>
+          <p class="cta-band__lead">預約一場場域示範，看 AniLink 如何把分散的檢查點整合成「每頭牛、每階段、是否在軌道上」的單一視圖。</p>
+          <div class="hero__actions" style="justify-content:center;">
+            <a href="contact.html" class="btn btn--primary btn--lg">預約場域示範
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+            </a>
+            <a href="pricing.html" class="btn btn--outline btn--lg">查看方案與定價</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 頁尾 ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <svg class="footer-logo-mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+            <circle cx="20" cy="22" r="11.5" stroke="currentColor" stroke-width="2.4"/>
+            <circle cx="20" cy="10.5" r="4" fill="#D9A39C"/>
+            <path d="M28.5 9a7.5 7.5 0 0 1 1.8 5.2" stroke="#D9A39C" stroke-width="2.2" stroke-linecap="round"/>
+            <path d="M11.5 9a7.5 7.5 0 0 0-1.8 5.2" stroke="#D9A39C" stroke-width="2.2" stroke-linecap="round" opacity=".55"/>
+          </svg>
+          <div class="logo-word">Ani<b>Link</b></div>
+          <p>AniLink 智物聯科技股份有限公司。專注動物 IoT 解決方案，以源興牛為灘頭堡，逐步擴展至跨物種的智慧畜牧平台。</p>
+        </div>
+        <div class="footer-col">
+          <h5>產品</h5>
+          <ul>
+            <li><a href="technology.html">智慧頸圈</a></li>
+            <li><a href="technology.html">雲端平台</a></li>
+            <li><a href="technology.html">油花預測 AI</a></li>
+            <li><a href="technology.html">區塊鏈追溯</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>公司</h5>
+          <ul>
+            <li><a href="about.html">關於 AniLink</a></li>
+            <li><a href="about.html">源興牛故事</a></li>
+            <li><a href="pricing.html">方案與定價</a></li>
+            <li><a href="contact.html">聯絡我們</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>聯絡</h5>
+          <ul>
+            <li><a href="mailto:hello@anilink.io">hello@anilink.io</a></li>
+            <li><a href="contact.html">預約場域示範</a></li>
+            <li><a href="contact.html">花蓮・源興牛主場域</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AniLink 智物聯科技股份有限公司　|　anilink.io</p>
+        <div class="legal">
+          <a href="#">隱私權政策</a>
+          <a href="#">服務條款</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
